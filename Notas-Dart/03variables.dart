@@ -15,15 +15,6 @@ void main() {
   final pi = 3.14;
   print(pi);
 } 
-
-
-void main() {
-  const nombre = "Amanda";
-  print(nombre);
-
-  final pi = 3.14;
-  print(pi);
-} 
 */
 
 void main() {

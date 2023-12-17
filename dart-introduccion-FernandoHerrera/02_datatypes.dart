@@ -1,6 +1,4 @@
-
 main() {
-
   // ===== Números
   int a = 10;
   double b = 5.5;
@@ -11,13 +9,11 @@ main() {
   double $b = 40;
 
   double resultado = _a + $b;
+  print(resultado);
 
-  // print( resultado );
+  // ===== String
 
-
-  // ===== String 
-
-  String nombre  = 'Tony';
+  String nombre = 'Tony';
   String nombre2 = "Tony";
   String nombre3 = "O'Connor";
   String apellido = 'Stark';
@@ -28,9 +24,9 @@ main() {
   Hola Mundo
   ¿Cómo estás?
   $nombreCompleto
-  O'Connor''';
-  
-  // print(multilinea);
+  O'Connor
+  ''';
+  print(multilinea);
 
   // ===== Booleans
   bool isActive = true;
@@ -38,10 +34,9 @@ main() {
 
   // print( isNotActive );
 
-
   // ===== Lists
   // List<String> villanosDeprecated = new List();
-  List<String> villanos = ['Lex','Red Skull','Doom']; // Son base 0
+  List<String> villanos = ['Lex', 'Red Skull', 'Doom']; // Son base 0
   //                         0        1         2
 
   villanos.add('Duende Verde');
@@ -54,9 +49,8 @@ main() {
   var villanosSet = villanos.toSet();
   // print(villanosSet.toList());
 
-
   // ======== Sets
-  Set<String> villanos2 = { 'Lex','Red Skull','Doom' };
+  Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
 
   villanos2.add('Duende Verde');
   villanos2.add('Duende Verde');
@@ -65,7 +59,6 @@ main() {
   villanos2.add('Duende Verde');
 
   // print( villanos2 );
-
 
   // ====== Maps            Diccionarios / Objetos literales
   Map<int, dynamic> ironman = {
@@ -77,13 +70,9 @@ main() {
   // print( ironman[3] )
   Map<String, dynamic> capitan = new Map();
 
-  capitan.addAll({
-    'nombre': 'Steve',
-    'poder' : 'Soportar droga sin morir',
-    'nivel' : 5000
-  });
+  capitan.addAll(
+      {'nombre': 'Steve', 'poder': 'Soportar droga sin morir', 'nivel': 5000});
   // capitan.addAll(ironman);
 
-  print( capitan );
+  print(capitan);
 }
-

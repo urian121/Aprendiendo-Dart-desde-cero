@@ -9,9 +9,7 @@ void main() {
   print("Programa para saber la edad y estatura");
   int edad = 20;
   print("edad");
-  print(edad);
   double estatura = 1.80;
-  print("estatura");
   print(estatura);
 }
 
@@ -28,7 +26,6 @@ void main() {
 
 void main() {
   print("Programa para saber los nombres de mis amigos");
-  List <String> amigos = ["dejadoMan", "tartaraCastellar", "burroPotter"];
+  List<String> amigos = ["dejadoMan", "tartaraCastellar", "burroPotter"];
   print(amigos);
 }
-

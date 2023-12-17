@@ -8,6 +8,6 @@ void main() {
   String texto1 = nombre + " " + conector + " " + pais; //concatenación
   print(texto1);
 
-  String texto2 = "Soy $nombre y vivo en $pais"; //interpolación
+  String texto2 = "Soy ${nombre} y vivo en ${pais}"; //interpolación
   print(texto2);
 }
